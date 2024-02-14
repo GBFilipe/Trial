@@ -25,9 +25,9 @@ public class PlayerMovement : MonoBehaviour
        
        rb.velocity = new Vector3(horizontalInput * movementSpeed, rb.velocity.y, verticalInput * movementSpeed);
        
-       if (Input.GetButtonDown("Jump"))
+       //if (Input.GetButtonDown("Jump"))
        {
-            rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+            
        }
 
        if (Input.GetButtonDown("Jump") && Time.time >= nextJumpTime)
@@ -38,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
     }
     void Jump()
     {
+        rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+        
         isJumping = true;
 
         nextJumpTime = Time.time + jumpCooldown;
