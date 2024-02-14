@@ -43,6 +43,8 @@ public class PlayerMovement : MonoBehaviour
         isJumping = true;
 
         nextJumpTime = Time.time + jumpCooldown;
+
+        rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
     }
 
     void EndJump()
