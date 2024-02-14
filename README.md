@@ -1,7 +1,17 @@
 # Trial
 A Demo Game
 
-The title of this game is trial and Error
+Hello, My name is Filipe Agostinho and I am currently learning Unity and how to code and this is right here is a mini game I created.
+
+I grew up with videogames and my dream is to make my own.
+
+I am also passionate about videogame music as well some of my favorite pieces of music coming from Minecraft, Mario, Sonic, and metal gear
+
+My other dream is to compose music for an industry or make music for myself and post it online for people to enjoy.
+
+
+
+The title of this game is Trial and Error
 
 The premise of this game is very simple, reach the end goal by jumping across platforms
 
